@@ -5,7 +5,7 @@ public class Main {
         UserService userService = new UserService();
 
         User user = userService.getUserByLogin("Paul");
-        System.out.println("Znaleziono usera: " + user.login + " " + user.email);
+        System.out.println("User found: " + user.login + " " + user.email);
 
 
 
